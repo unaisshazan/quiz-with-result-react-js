@@ -21,7 +21,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                 {
                     options.map((opt: string, ind: number) => {
                         return (
-                            <div key={ind}>
+                            <div  key={ind}>
                                 <label className="radio">
                                     <input
                                         type="radio"
